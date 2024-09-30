@@ -1,1 +1,20 @@
+/* This is CSS COMMENT */
 
+/* Select by element TYPE */
+p{
+    color: rgb(14, 183, 22);
+}
+
+/* Select by CLASS name */
+.border {
+border: 2px solid black(198, 141, 141); 
+}
+
+.border{
+border: 2px solid pink
+}
+
+/* Select by ID name */
+#intro {
+background-color: blue
+}
