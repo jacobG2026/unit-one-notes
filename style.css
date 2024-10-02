@@ -8,6 +8,7 @@ p{
 /* Select by CLASS name */
 .border {
 border: 2px solid black(198, 141, 141); 
+background-color: pink
 }
 
 .border{
@@ -17,4 +18,26 @@ border: 2px solid pink
 /* Select by ID name */
 #intro {
 background-color: blue
+}
+
+h1,h2,h3 {
+font-family : cursive ;
+}
+
+h4 {
+font-family : serif ;
+}
+
+/*Properties: colors and typography */ 
+strong {
+color: rgb(53, 32, 213))
+
+font-family: impact;
+font-weight: 1020;
+font-style: italic;
+
+}
+
+h1{
+    text-align: center;
 }
