@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
 /* This is CSS COMMENT */
 
 /* Select by element TYPE */
+body{
+    font-family: "Noto Serif", serif;
+    background-color: beige
+}
 p{
     color: rgb(14, 183, 22);
+}
+h1,h2,h3 {
+
+    font-family: "Pacifico", cursive;
 }
 
 /* Select by CLASS name */
@@ -20,9 +31,6 @@ border: 2px solid pink
 background-color: blue
 }
 
-h1,h2,h3 {
-font-family : cursive ;
-}
 
 h4 {
 font-family : serif ;
