@@ -49,3 +49,17 @@ font-style: italic;
 h1{
     text-align: center;
 }
+
+/* Box Model: margin, border, paddin, content */
+img {
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+    border-radius: 20px;
+}
+hr{
+
+    border-width: 5px;
+    border-style; dotted;
+    border-color: green;
+}
