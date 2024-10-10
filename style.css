@@ -15,6 +15,11 @@ h1,h2,h3 {
 
     font-family: "Pacifico", cursive;
 }
+h1 {
+    text-align: center;
+    margin: 5%;
+    padding: 10px;
+}
 
 /* Select by CLASS name */
 .border {
@@ -50,12 +55,16 @@ h1{
     text-align: center;
 }
 
-/* Box Model: margin, border, paddin, content */
+/* Box Model: margin, border, padding, content */
 img {
     border-width: 10px;
     border-style: double;
     border-color: blue;
     border-radius: 20px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 hr{
 
@@ -63,3 +72,10 @@ hr{
     border-style; dotted;
     border-color: green;
 }
+
+/* TIP: Easy way to center ending */
+.centered-container {
+    margin: auto;
+    text-align: center
+}
+
